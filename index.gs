@@ -12,9 +12,9 @@ function stringToMinutes(str) {
 }
   
 function getTimes() {
-  var teachersListSheet = SpreadsheetApp.openById('1BcWyqSJuv1yWb4aWFB1kOXp8ESYF5N2vekh3gk-dREc').getSheets()[0].getDataRange().getValues();
+  var teachersListSheet = SpreadsheetApp.openById('1CIVrssrKl3vglCh8-joZxuq3WbCwN1zvT4xP7mzC5Fc').getSheets()[0].getDataRange().getValues();
   var teachers = teachersListSheet.map(function(el) {return el[0]});
-  var schedule = SpreadsheetApp.openById('1LRDMMR5UoAKHaYpX2UpCwGoxzcXicz7pOiRNJ-__Ljw').getSheets()[0].getDataRange().getValues()
+  var schedule = SpreadsheetApp.openById('1zeWaN9JUCGQ1I6x2NAHmzoRcJj00EJlE049B3MAHYvI').getSheets()[0].getDataRange().getValues()
  
   var wholeHours = 0;
   var doctorHours = 0;
