@@ -24,7 +24,7 @@ function getTimes() {
   var sumHours;
   
   
-  for (var i = 1; i &lt; schedule.length; i++) {
+  for (var i = 1; i < schedule.length; i++) {
     var index = teachers.indexOf(schedule[i][6]);
     var timeDif = getTimeDiff(schedule[i][3]);
     wholeHours += timeDif;
